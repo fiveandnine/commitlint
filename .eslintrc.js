@@ -1,7 +1,8 @@
 module.exports = {
-	"extends": "airbnb",
-	"rules": {
-		"semi": ["error", "always"],
-		"quotes": ["error", "double"]
-	}
-};
+    extends: 'airbnb',
+    plugins: ['prettier'],
+    rules: {
+        semi: ['error', 'always'],
+        quotes: ['error', 'double'],
+    },
+}
