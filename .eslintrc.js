@@ -1,7 +1,7 @@
 module.exports = {
 	"extends": "airbnb",
 	"rules": {
-		"semi": ["error", "always"],
+		"semi": ["5", "always"],
 		"quotes": ["error", "double"]
 	}
 }
